@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ddd3d3d2;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+p{
+    margin-top: 20px;
+}
