@@ -72,7 +72,8 @@ main {
   justify-content: center;
   align-items: center;
   padding: 20px 0;
-  background: linear-gradient(to top,#58ee6f,#168c28);
+  /* background: linear-gradient(to top,#58ee6f,#168c28); */
+  background-color: #abfea3;
 
 }
 
@@ -133,7 +134,6 @@ main {
 
 .diferenca a {
   color: var(--fundo2);
-  text-decoration: none;
   transition: color 0.3s ease;
 }
 
