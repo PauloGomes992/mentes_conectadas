@@ -1,17 +1,151 @@
+/* GERAL */
+:root {
+  --fundo1: #168c28;
+  --fundo2: #85f296;
+  --logo: #168c28;
+  --letra: #0d0d0d;
+}
+
 * {
   margin: 0;
   padding: 0;
-  background-color: #ddd3d3d2;
+  box-sizing: border-box;
 }
 
-div{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 50px;
+html, body {
+  height: 100%; 
 }
-p{
-    margin-top: 20px;
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  font-family: 'Arial', sans-serif;
+  background-color: var(--fundo1);
+}
+
+/* HEADER */
+header {
+  flex-shrink: 0; 
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--logo);
+  background: linear-gradient(to bottom, #26fa46, #85f296);
+  padding: 20px 0;
+}
+
+.logo img {
+  max-width: 80px;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.logo h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .logo h1 {
+    font-size: 2.5rem;
+  }
+  .logo h2 {
+    font-size: 1.5rem;
+  }
+  .logo img {
+    max-width: 100px;
+  }
+}
+
+/* MAIN */
+main {
+  flex-grow: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background: linear-gradient(to top,#58ee6f,#168c28);
+
+}
+
+.tela-login {
+  width: 100%;
+  max-width: 400px;
+  padding: 0 15px; 
+}
+
+.cadastrado {
+  width: 100%;
+  background-color: var(--fundo1);
+  font-weight: bold;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, .15);
+  margin-bottom: 20px; 
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  background-color: var(--fundo1);
+  font-weight: bold;
+}
+
+.login button {
+  margin-top: 10px;
+  background-color: var(--fundo2);
+  color: var(--fundo1);
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login button:hover {
+  background-color: #24ea42;
+  color: var(--letra);
+  transform: scale(1.05);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-tipo {
+  width: 100%; 
+  margin: 5px 0;
+}
+
+.diferenca {
+  margin-top: 10px;
+}
+
+.diferenca a {
+  color: var(--fundo2);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.diferenca a:hover {
+  color: #24ea42;
+}
+
+/* FOOTER */
+footer {
+  flex-shrink: 0; 
+  text-align: center;
+  padding: 10px;
+  background-color: var(--fundo1);
+  color: var(--fundo2);
 }

@@ -1,1 +1,0 @@
-# mentes_conectadas
