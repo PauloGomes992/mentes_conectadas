@@ -1,0 +1,3 @@
+05/02 - Fazer o front e conexão do cadastro membro
+06/02 - Fazer o front e conexão do cadastro terapeuta
+07/02 - Fazer o front e conexão do esqueci a senha

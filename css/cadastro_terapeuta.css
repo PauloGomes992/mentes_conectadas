@@ -1,0 +1,57 @@
+:root {
+  --cor1: #168c28;
+  --cor2: #85f296;
+  --cor3: #0d0d0d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+  background-color: var(--fundo2); 
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+     width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--fundo1);
+}
+
+.form-group{
+    padding-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: var(--cor2);
+  color: var(--cor1);
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,{
+  background-color: #24ea42;
+  color: var(--cor3);
+  transform: scale(1.05);
+}

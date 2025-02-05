@@ -1,0 +1,28 @@
+O que?
+Reunir pessoas com o mesmo problema para debater em grupos. Também terão acesso terapeutas para ajudar no processo.
+
+Quem irá acessar?
+O acesso ao site é liberado a todos. Ao sistema apenas quem estiver logado. Teremos 3 tipos de usuário e todos precisam de login e senha:
+1º Administrador - Terá acesso a tudo. Ver, editar e excluir.
+2º Terapeuta  - Terá suas mensagens em vermelho e destacadas.
+3º Membro - Suas mensagens serão em azul.
+
+Sobre o cadastro
+O cadastro será feito pelo sistema. Para o cadastro do terapeuta, deverá ser apresentado a tela de cadastro de tarepeuta, e deverá ser colocado o CRP. Para o cadastro de membros, deverá ser apresentado a tela de cadastro de membros, e deverá ser colocado o CPF.
+-> Será necessário o envio de e-mail de confirmação de cadastro.
+
+Sobre o login
+* No sistema aparecerá do lado esquerdo seu nome e foto.
+* Cada tipo de usuário terá uma cor e fonte de mensagens diferentes
+* Se o usuário esquecer a senha será feira uma confirmação do e-mail, se o e-mail existir, será mandada uma senha temporária para ele.
+
+Sobre o index
+*Serão apresentadas várias "salas", cada uma com um tipo de transtorno.
+
+Sobre as salas
+*Terá no topo uma breve descrição do transtorno, e um aviso que para ter a certeza que você tem esse transtorno é necessário uma consulta com um especialista.
+* As mensagens terão scroll infinito e não terão curtidas ou descurtidas.
+* Terá um filtro para:
+	- Todas as mensagens
+	- Somente membros
+	- Somente terapeutas
