@@ -10,37 +10,34 @@
   box-sizing: border-box;
 }
 
-html,
 body {
-  height: 100%;
-}
-
-body {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
   font-family: "Arial", sans-serif;
-  background-color: var(--fundo2); 
+  background-color: var(--cor2);
 }
 
-.cadastro{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    text-align: center;
-     width: max-content;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: var(--fundo1);
+.cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: max-content;
+  padding: 20px 50px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: var(--cor1);
 }
 
-.form-group{
-    padding-top: 5px;
+.form-group {
+  padding-top: 5px;
+  box-shadow: 1px black;
 }
 
-button {
+.cadastro button {
   margin-top: 10px;
   background-color: var(--cor2);
   color: var(--cor1);
@@ -50,8 +47,19 @@ button {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-button:hover,{
+.cadastro button:hover {
   background-color: #24ea42;
   color: var(--cor3);
   transform: scale(1.05);
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: 0.9rem;
+  }
+
+  .cadastro {
+    margin: 0 auto;
+    width: 80%;
+  }
 }

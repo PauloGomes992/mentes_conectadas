@@ -57,7 +57,7 @@ function aplicarMascaraData(data) {
   data = data.replace(/\D/g, ""); // Remove caracteres não numéricos
   data = data.replace(/(\d{2})(\d)/, "$1/$2"); // Adiciona a primeira barra
   data = data.replace(/(\d{2})(\d)/, "$1/$2"); // Adiciona a segunda barra
-  data = data.replace(/(\d{4})\d+?$/, "$1"); // Limita ao ano com 4 dígitos
+  data = data.replace(/(\d{4})\d+$/, "$1"); // Limita ao ano com 4 dígitos
   return data;
 }
 
@@ -66,3 +66,26 @@ function mascaraData(event) {
   let data = campoData.value;
   campoData.value = aplicarMascaraData(data);
 }
+
+// Função para aplicar a máscara no CRP
+
+document.addEventListener("DOMContentLoaded", function () {
+  const campoCRP = document.getElementById("crp");
+  if (campoCRP) {
+    campoCRP.addEventListener("input", mascaraCRP);
+  }
+});
+
+function aplicarMascaraCRP(crp) {
+  crp = crp.replace(/\D/g, "");
+  crp = crp.replace(/(\d{2})(\d)/, "$1/$2");
+
+  return crp;
+}
+function mascaraCRP(event) {
+  let campoCRP = event.target;
+  let crp = campoCRP.value;
+  campoCRP.value = aplicarMascaraCRP(crp);
+  
+}
+
