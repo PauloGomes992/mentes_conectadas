@@ -10,35 +10,34 @@
   box-sizing: border-box;
 }
 
-
 body {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "Arial", sans-serif;
-  background-color: var(--cor2); 
+  background-color: var(--cor2);
 }
 
-.cadastro{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    text-align: center;
-    width: max-content;
-    padding: 20px 50px;
-    border-radius: 10px;
-    background-color: var(--cor1);
-    margin: 30px;
-    font-weight: bold;
+.cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: max-content;
+  padding: 20px 50px;
+  border-radius: 10px;
+  background-color: var(--cor1);
+  margin: 11rem;
+  font-weight: bold;
 }
 
-.form-group{
-    padding-top: 5px;
-    box-shadow: 1px black;
+.form-group {
+  padding-top: 5px;
+  box-shadow: 1px black;
 }
 
-.cadastro button{
+.cadastro button {
   margin-top: 10px;
   background-color: var(--cor2);
   color: var(--cor1);
@@ -55,12 +54,12 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  *{
+  * {
     font-size: 0.9rem;
   }
 
-  .cadastro{
-    margin: 30px auto;
+  .cadastro {
+    margin: 11rem auto;
     width: 80%;
   }
 }
