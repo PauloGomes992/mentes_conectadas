@@ -99,6 +99,8 @@ main {
   padding-top: 20px;
   background-color: var(--cor1);
   font-weight: bold;
+  max-width: 205px;
+  margin: 0 auto;
 }
 
 .login button, .links a {
@@ -126,17 +128,27 @@ main {
   margin: 5px 0;
 }
 
+
 .diferenca {
   margin-top: 10px;
 }
 
 .diferenca a {
-  color: var(--cor2);
-  transition: color 0.3s ease;
+  color: var(--cor2) !important;
+  transition: color 0.3s ease !important;
+  text-decoration: underline !important;
+
 }
 
 .diferenca a:hover {
-  color: #24ea42;
+  color: #24ea42 !important;
+  cursor: pointer;
+}
+
+.explicacao{
+  padding-top: 5px;
+  color: var(--cor3);
+  display: none;
 }
 
 /* FOOTER */
