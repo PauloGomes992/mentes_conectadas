@@ -14,7 +14,7 @@ public class SiteController {
 
     @GetMapping("/cadastro_membro")
     public String carregarCadastroMembro() {
-        return "cadastro_membro";
+        return "cadastro_membro.html";
     }
 
     @GetMapping("/cadastro_terapeuta")

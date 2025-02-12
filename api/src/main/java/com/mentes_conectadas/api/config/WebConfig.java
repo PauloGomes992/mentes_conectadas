@@ -8,8 +8,6 @@ import org.springframework.web.filter.HiddenHttpMethodFilter;
 public class WebConfig {
     
     @Bean
-    // método para fazer o springBoot ler métodos diferentes de !post !get
-    // Por padrão o SpringBoot não le métodos como put e delete. O HTML só tem semantica para métodos !post !get 
     public HiddenHttpMethodFilter hiddenHttpMethodFilter() {
         return new HiddenHttpMethodFilter();
     }

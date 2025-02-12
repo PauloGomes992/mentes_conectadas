@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Terapeutas</title>
+</head>
+<body>
+    <h1>Lista de Terapeutas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Data de Nascimento</th>
+                <th>E-mail</th>
+                <th>Telefone</th>
+                <th>CRP</th>
+                <th>Abordagem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="terapeuta : ${terapeutas}">
+                <td th:text="${terapeuta.id}"></td>
+                <td th:text="${terapeuta.nome}"></td>
+                <td th:text="${terapeuta.cpf}"></td>
+                <td th:text="${terapeuta.dataDeNascimento}"></td>
+                <td th:text="${terapeuta.email}"></td>
+                <td th:text="${terapeuta.telefone}"></td>
+                <td th:text="${terapeuta.crp}"></td>
+                <td th:text="${terapeuta.abordagem}"></td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

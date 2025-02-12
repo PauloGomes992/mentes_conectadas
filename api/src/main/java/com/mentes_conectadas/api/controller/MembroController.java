@@ -27,7 +27,7 @@ public class MembroController {
     @Transactional
     public String salvarMembro(@ModelAttribute MembroModel membro) {
         repository.save(membro);
-        return "redirect:/membro/cadastro"; // Corrigido o redirecionamento
+        return "redirect:/membro/cadastro";
     }
 
     @GetMapping("/listar")
