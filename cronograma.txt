@@ -4,6 +4,6 @@
 -------------------------------------------------------
 10/02 - Fazer o aviso do entenda a diferença - ok
 11/02 - Cadastrar membro no h2 - ok
-12/02 - Cadastrar tarapeuta no h2
+12/02 - Cadastrar tarapeuta no h2 - ok
 13/02 - Guardar dados membro no banco de dados
 14/02 - Guardar dados terapeuta no banco de dados e fazer a agenda semanal

@@ -111,6 +111,7 @@ main {
   border: none;
   padding: 10px 20px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 15px;
 }
 
 .login button:hover,.links a:hover {
@@ -118,6 +119,7 @@ main {
   color: var(--cor3);
   transform: scale(1.05);
 }
+
 
 .form-group {
   margin-bottom: 15px;

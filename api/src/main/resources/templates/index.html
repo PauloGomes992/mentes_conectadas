@@ -18,7 +18,7 @@
 <body>
     <header>
         <div class="logo">
-            <p><img src="../../resources/static/img/logo_sem_letras.png" alt="mentes conectadas"></p>
+            <p><img src="/img/logo_sem_letras.png" alt="mentes conectadas"></p>
             <h1>Mentes Conectadas</h1>
             <h2>Encontre quem entende o seu mundo</h2>
         </div>
@@ -41,7 +41,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary">LOGAR</button>
                         <div class="diferenca">
-                            <a href="esqueci_a_senha.html">Esqueci a senha!</a>
+                            <a th:href="@{/esqueci_senha}">Esqueci a senha!</a>
                         </div>
                     </form>
                 </div>
@@ -51,9 +51,9 @@
                 Não é cadastrado?
                 <div class="login">
                     <form action="#">
-                        <div class="links"><a href="/terapeuta/cadastro" type="submit"
+                        <div class="links"><a th:href="@{/terapeuta/cadastro}" type="submit"
                                 class="btn btn-primary btn-tipo ">CADASTRO TERAPEUTA</a></div>
-                        <div class="links"><a href="/membro/cadastro" type="submit"
+                        <div class="links"><a th:href="@{/membro/cadastro}" type="submit"
                                 class="btn btn-primary btn-tipo">CADASTRO MEMBRO</a></div>
                         <div class="diferenca">
                             <a href="#" id="entendaDiferenca">Entenda a diferença!</a>
