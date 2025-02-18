@@ -5,5 +5,11 @@
 10/02 - Fazer o aviso do entenda a diferença - ok
 11/02 - Cadastrar membro no h2 - ok
 12/02 - Cadastrar tarapeuta no h2 - ok
-13/02 - Guardar dados membro no banco de dados
-14/02 - Guardar dados terapeuta no banco de dados e fazer a agenda semanal
+13/02 - Guardar dados membro no banco de dados - ok
+14/02 - Guardar dados terapeuta no banco de dados e fazer a agenda semanal - ok
+-------------------------------------------------------
+17/02 - Guardar dados membro e terapeuta no banco de dados - ok
+18/02 - Criar a página home 1/2
+19/02 - Criar a página home 2/2
+20/02 - Deixar o The Marujo's mais bonito
+21/02 - Arrumar meu GitHub e fazer a agenda semanal
