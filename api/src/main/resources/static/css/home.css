@@ -1,0 +1,117 @@
+/* GERAL */
+:root {
+    --cor1: #168c28;
+    --cor2: #85f296;
+    --cor3: #0d0d0d;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Arial", sans-serif;
+    background-color: var(--cor1);
+  }
+  
+  /* HEADER */
+  header {
+    flex-shrink: 0;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--cor1);
+    background: radial-gradient(#26fa46, #85f296);
+    padding: 20px 0;
+  }
+  
+  .logo img {
+    max-width: 80px;
+  }
+  
+  .logo h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .logo h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  
+  @media (min-width: 768px) {
+    .logo h1 {
+      font-size: 2.5rem;
+    }
+    .logo h2 {
+      font-size: 1.5rem;
+    }
+    .logo img {
+      max-width: 100px;
+    }
+  }
+  
+  /* MAIN */
+  main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #abfea3;
+  }
+  
+  .sala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor1);
+    font-weight: bold;
+    margin: 10px auto;
+    width: 150px !important; 
+    height: 150px !important; 
+  }
+  
+  .sala a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor2);
+    color: var(--cor1);
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 15px;
+  }
+  
+  .sala a:hover {
+    background-color: #24ea42;
+    color: var(--cor3);
+    transform: scale(1.05);
+  }
+  
+  /* FOOTER */
+  footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor1);
+    color: var(--fundo2);
+  }

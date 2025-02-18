@@ -37,9 +37,11 @@
                         </div>
                         <div class="form-group">
                             <label for="senha">Senha</label>
-                            <input type="password" class="form-control" id="senha" placeholder="Senha">
+                            <input type="text" class="form-control" id="senha" placeholder="Senha">
                         </div>
-                        <button type="submit" class="btn btn-primary">LOGAR</button>
+                        <div class="links">
+                            <a th:href="@{/home}" type="submit" class="btn btn-primary">LOGAR</a>
+                        </div>
                         <div class="diferenca">
                             <a th:href="@{/esqueci_senha}">Esqueci a senha!</a>
                         </div>

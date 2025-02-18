@@ -27,4 +27,8 @@ public class SiteController {
         return "esqueci_a_senha";
     }
 
+    @GetMapping("/home")
+    public String carregarHome() {
+        return "home";
+    }
 }
