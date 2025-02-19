@@ -9,7 +9,7 @@
 14/02 - Guardar dados terapeuta no banco de dados e fazer a agenda semanal - ok
 -------------------------------------------------------
 17/02 - Guardar dados membro e terapeuta no banco de dados - ok
-18/02 - Criar a página home 1/2
-19/02 - Criar a página home 2/2
+18/02 - Criar a página home 1/2 - ok
+19/02 - Criar a página home 2/2 - ok
 20/02 - Deixar o The Marujo's mais bonito
 21/02 - Arrumar meu GitHub e fazer a agenda semanal
